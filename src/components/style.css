@@ -1,0 +1,102 @@
+
+
+/* HeaderPhtot component styling  */
+
+.HeaderPhoto--container{
+    text-align: center;
+}
+.profile-photo{
+    width:100%;
+  }
+  .name{
+    font-size: 32px;
+    font-weight: bold;
+    margin: 2rem auto 0 auto;
+  }
+  .role{
+    font-weight: normal;
+    color:#F3BF99;
+    margin: 0.1rem auto 0 auto;
+    font-size: 16px;
+  }
+
+  .email{
+    font-size:13px;
+    margin:0.5rem auto 0.1rem auto;
+  }
+
+/* Buttons component styling  */
+
+.social-media--buttons{
+    display: flex;
+    justify-content: space-between;
+    margin:0.5rem auto;
+}
+
+.linkidln--btn{
+    background-color: #5093E2;
+    color: #FFFFFF;
+}
+
+.btn{
+    width:10.5rem;
+    height:3rem;
+    font-size: 20px;
+    display: flex;
+    gap:0.8rem;
+    justify-items: center;
+    align-items: center;
+    padding:auto;
+}
+
+/* About component  */
+
+.about--body{
+    color: #DCDCDC;
+    font-size: 14px;
+    margin:0 auto;
+}
+
+.about--header{
+    margin-bottom: 0.4rem;
+}
+
+
+
+/* Intersets Component  */
+
+.interest--body{
+    color:#DCDCDC;
+    font-size: 14px;
+    margin:0 auto;
+}
+
+.interest--header{
+    margin-bottom: 0.4rem ;
+}
+
+
+/* Footer component style */
+
+.footer{
+    height:5rem;
+    background-color: #161619;
+    display: flex;
+    gap:1.2rem;
+    justify-content: center;
+    align-items: center;
+        border-bottom-left-radius: 20% !important;
+        border-bottom-right-radius: 10% !important;
+}
+
+.icon{
+    height: 35px;
+    width:35px;
+    /* background-color: #918E9B; */
+    color:#918E9B;
+}
+
+
+
+
+
