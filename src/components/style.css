@@ -85,6 +85,8 @@
     gap:1.2rem;
     justify-content: center;
     align-items: center;
+        border-bottom-left-radius: 20% !important;
+        border-bottom-right-radius: 10% !important;
 }
 
 .icon{
