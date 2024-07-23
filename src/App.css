@@ -1,0 +1,20 @@
+#root {
+  padding: 2rem;
+  background-color: #23252C;
+  width:100%;
+  /* font-family: inter; */
+}
+.body{
+  max-width: 450px;
+  margin:0 auto;
+  background-color: #1A1B21;
+  color:#FFFFFF;
+}
+
+.main--body{
+  padding:0.5rem 2.5rem;
+}
+
+
+
+
