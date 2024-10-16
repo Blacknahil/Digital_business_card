@@ -1,19 +1,32 @@
-# Getting Started
-Install the dependencies and run the project
-```
-npm install
-npm start
-```
+# Chrome Extension: Save Links for Future Use
 
-Head over to https://vitejs.dev/ to learn more about configuring vite
-## About Scrimba
+This Chrome extension allows users to save links for future use. The links are stored in the browser's local storage and can be accessed anytime.
 
-At Scrimba our goal is to create the best possible coding school at the cost of a gym membership! 💜
-If we succeed with this, it will give anyone who wants to become a software developer a realistic shot at succeeding, regardless of where they live and the size of their wallets 🎉
-The Frontend Developer Career Path aims to teach you everything you need to become a Junior Developer, or you could take a deep-dive with one of our advanced courses 🚀
+## Features
 
-- [Our courses](https://scrimba.com/allcourses)
-- [The Frontend Career Path](https://scrimba.com/learn/frontend)
-- [Become a Scrimba Pro member](https://scrimba.com/pricing)
+- Save the current tab's URL with a single click.
+- Add custom URLs manually.
+- Clear all saved URLs with a double-click.
+- Display saved URLs as clickable links.
 
-Happy Coding!
+## Installation
+
+1. Clone or download this repository.
+2. Open Chrome and navigate to `chrome://extensions/`.
+3. Enable "Developer mode" by toggling the switch in the top right corner.
+4. Click on "Load unpacked" and select the directory containing the extension files.
+
+## Usage
+
+1. Click on the extension icon to open the popup.
+2. To save the current tab's URL, click the "Save Tab" button.
+3. To add a custom URL, enter the URL in the input field and click the "Save Input" button.
+4. To clear all saved URLs, double-click the "Delete All" button.
+5. The saved URLs will be displayed as clickable links in the popup.
+
+## Files
+
+- `index.html`: The HTML structure of the extension popup.
+- `index.css`: The styling for the extension popup.
+- `index.js`: The JavaScript logic for saving, displaying, and deleting URLs.
+- `manifest.json`: The configuration file for the Chrome extension.
